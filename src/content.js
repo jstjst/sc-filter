@@ -62,6 +62,7 @@ const FILTERS = [
   new FeedFilter("Not following", "notFollowing"),
   new FeedFilter("Only singles", "onlySingles"),
   new FeedFilter("Deep cuts", "deepCuts"),
+  new FeedFilter("No reposts, only singles", "noRepostOnlySingles"),
 ];
 
 function initFilters() {
